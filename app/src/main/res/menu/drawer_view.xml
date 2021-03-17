@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemHome"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"></item>
+    <item
+        android:id="@+id/itemProfile"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_person_24"></item>
+    <item
+        android:id="@+id/itemSchemes"
+        android:title="Schemes"
+        android:icon="@drawable/ic_baseline_grading_24"></item>
+    <item
+        android:id="@+id/itemWorks"
+        android:title="Works"
+        android:icon="@drawable/ic_baseline_create_24"></item>
+    <item
+        android:id="@+id/itemGallery"
+        android:title="Gallery"
+        android:icon="@drawable/ic_baseline_insert_photo_24"></item>
+    <item
+        android:id="@+id/itemAward"
+        android:title="Awards"
+        android:icon="@drawable/ic_baseline_insert_photo_24"></item>
+    <item
+        android:id="@+id/itemMilestone"
+        android:title="Milestones"
+        android:icon="@drawable/ic_baseline_drag_indicator_24"></item>
+    <item
+        android:id="@+id/itemAcheivements"
+        android:title="Acheivements"
+        android:icon="@drawable/ic_baseline_article_24"></item>
+
+    <item
+        android:id="@+id/itemAbout"
+        android:title="About Us"
+        android:icon="@drawable/ic_baseline_person_24"></item>
+    <item
+        android:id="@+id/itemContactUs"
+        android:title="Contact Us"
+        android:icon="@drawable/ic_baseline_call_24"></item>
+
+
+</menu>
