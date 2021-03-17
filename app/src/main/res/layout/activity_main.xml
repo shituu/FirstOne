@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="#FFA500">
+    android:background="#FFA500"
+    tools:context=".Activity.MainActivity">
 
 
     <ImageView
         android:id="@+id/img"
         android:layout_width="250dp"
-        android:layout_height="300dp"
-        android:layout_marginTop="35dp"
-        android:src="@drawable/ic_launcher_background"
+        android:layout_height="320dp"
+        android:layout_marginTop="38dp"
+        android:src="@drawable/jajji"
         android:layout_centerHorizontal="true"/>
 
     <RelativeLayout
@@ -27,7 +27,7 @@
 
         <ImageView
             android:id="@+id/img_view"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:layout_width="wrap_content"
@@ -45,7 +45,7 @@
 
             <TextView
                 android:id="@+id/txt_jajpal"
-                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="30dp"
-                android:layout_marginLeft="5dp"
+                android:layout_marginStart="3dp"
                 android:textColor="#228B22"
                 android:textStyle="bold"
                 android:text="Jajji"/>
@@ -73,8 +73,8 @@
             android:layout_width="wrap_content"
             android:layout_height="2dp"
             android:background="#000000"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
             android:layout_toRightOf="@+id/img_view"
             android:layout_toLeftOf="@+id/txt_ashoknagar"
             android:layout_below="@+id/linear_text"
